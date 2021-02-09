@@ -1,0 +1,158 @@
+.firstContainer {
+	/*height: 500px; removed, messed up the scaling*/
+
+	border: 1px lightgrey solid;
+	border-radius: 17px;
+	background-color: white;
+	z-index: 9;
+	padding-bottom: 2rem; /*this whill leave 2 rows of space at the bottom and the container can self adjust it's heigth*/
+}
+.coverImageRow {
+	z-index: 10;
+	position: relative;
+}
+.profilePic {
+	position: relative;
+	z-index: 11;
+	/*margin-top: -24%; this made the picture jump around like a drunk frog*/
+	margin-top: -4rem; /*rem dimensions are relative to the font size of the root element they are a little more pleasant than px measures*/
+	/*margin-left: 80px; this worked only becaus you knew how big your parent component was, but that changes from device to device*/
+	margin-left: auto; /*margin auto centers stuff indipendently from the parent size*/
+	margin-right: auto;
+}
+.userNameRow {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-left: auto; /*margin auto centers stuff indipendently from the parent size*/
+	margin-right: auto;
+	margin-top: 35px;
+	font-size: 20px;
+	font-weight: 500;
+}
+.bioRow {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-top: 10px;
+	padding-bottom: 15px;
+	color: grey;
+	font-size: 16px;
+	border-bottom: 1px lightgrey solid;
+}
+.connections {
+	margin-top: 22px;
+	margin-left: 4px;
+	font-weight: 500;
+	color: grey;
+	font-size:12px;
+}
+.grow {
+	margin-left: 4px;
+	font-weight: 500;
+	font-size:12px;
+}
+.addUser {
+	margin-top: 27px;
+	font-size: 22px;
+}
+.addUser:hover {
+	font-size: 25px;
+}
+.access {
+	color: grey;
+	font-size: 12px;
+	margin-top: 35px;
+	margin-left: 4px;
+	margin-bottom:5px;
+}
+.premiumIcon {
+	font-size: 12px;
+	margin-left: 6px;
+}
+.premiumText {
+	font-size: 12px;
+	font-weight: 500;
+}
+.premiumRow {
+	border-bottom: 1px lightgrey solid;
+	padding-bottom: 15px;
+	font-size: 12px;
+}
+.dirtyFlag {
+	transform: rotate(90deg);
+	
+	font-size: 12px;
+}
+.savedText {
+	font-size: 12px;
+	font-weight: 500;
+	margin-top: 11px;
+}
+/* second container */
+.secondContainer {
+	margin-top: 10px;
+	height: 170px;
+
+	border: 1px lightgrey solid;
+	border-radius: 17px;
+	background-color: white;
+	z-index: 9;
+}
+.groups {
+	margin-left: 8px;
+	margin-top: 8px;
+	font-size: 19px;
+	font-weight: 500;
+}
+.events {
+	font-color: #0a66c2 !important;
+	margin-left: -15px;
+	margin-top: 8px;
+	font-size: 19px;
+	font-weight: 500;
+}
+.hashTag {
+	margin-top: 8px;
+	font-size: 19px;
+	font-weight: 500;
+	border-bottom: 1px lightgrey solid;
+	padding-bottom: 8px;
+}
+.hashTag a{
+	color: #0a66c2 !important;
+}
+.events a {
+	color: #0a66c2 !important;
+}
+.hashTagText {
+	margin-left: 22px;
+}
+.plus {
+	margin-left: 27px;
+	font-size: 20px;
+}
+.discoverMe {
+	margin-top: 15px;
+	font-weight: 500;
+	font-size: 20px;
+	margin-left: 5px;
+	text-align: center;
+}
+
+/*
+	this is not needed anymore
+@media screen and (max-width: 577px) {
+	.firstContainer {
+		height: 470px;
+	}
+}
+*/
+/* @media screen and (min-width: 1210px) {
+	.profilePic {
+		width: 100px;
+	}
+	.coverPhoto {
+		height: 100px;
+	}
+} */

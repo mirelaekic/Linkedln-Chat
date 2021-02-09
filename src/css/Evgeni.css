@@ -1,0 +1,305 @@
+.notJumbotronContainer {
+
+	/*height: 500px; removed, messed up the scaling*/
+	
+	margin-bottom: 15px;
+	padding-bottom: 2rem; /*this whill leave 2 rows of space at the bottom and the container can self adjust it's heigth*/
+	background-color: rgb(255, 255, 255);
+
+	border: 1px solid #d6d5d1;
+	border-radius: 25px;
+	font-size: 14px;
+	margin-bottom: 20px;
+	
+}
+.addProfileSection.second {
+	background-color: white;
+	color: rgb(11, 103, 194);
+}
+.dottedContainer {
+	/* width: 250px; */
+	/* height: 100px; */
+	border: 2px #EBEBEB dotted;
+	border-radius: 10px;
+	margin-top: 10px;
+	padding:10px;
+}
+.moreBtn {
+	background-color: white;
+	color: gray;
+}
+.profilePhoto {
+	width: 150px;
+	height: 150px;
+	min-height:90px;
+	min-width:90px;
+	margin-left: 10px;
+	margin-top: -55px;
+	border: 1px white solid;
+	object-fit: cover !important;
+}
+.profileCover {
+	border-radius: 15px 15px 0px 0px;
+	width: 100%;
+	height: 195px;
+	object-fit:cover;
+}
+.coverPhoto {
+	border-radius: 15px 15px 0px 0px;
+	width: 100%;
+	height: 95px;
+	object-fit:cover;
+}
+.pencil {
+	font-size: 25px;
+	
+}
+.location {
+	
+	font-size: 16px; /* HERE */
+}
+.username {
+	/* margin-left: 10px; HERE */
+	font-size: 24px; /* HERE */
+}
+.bio {
+	/* margin-left: 10px; HERE */
+	font-size: 14px;
+ /* HERE */
+}
+.dropDownItem {
+	height: 30px;
+}
+hr {
+	padding-top: -20px;
+}
+
+.footerImage {
+	width: 130px;
+	margin-bottom: 15px;
+}
+.footerItem {
+	color: #696867;
+	font-weight: 765;
+	font-size: 12px;
+	margin-top: 12px;
+}
+.footerItemCorporation {
+	color: #696867;
+	font-weight: 465;
+	font-size: 12px;
+	margin-top: 19px;
+}
+.footerCol {
+	margin-left: 30px;
+}
+.footerContainer {
+	margin-bottom: 50px;
+}
+.questionRow {
+	margin-top: 40px;
+}
+.questionMark {
+	color: #696867;
+	font-size: 24px;
+	margin-right: 10px;
+}
+.footerColToMove {
+	margin-left: 24px;
+	
+}
+.firstRowToCSS {
+	color: #696867;
+	font-size: 14px;
+	font-weight: 650;
+
+}
+.colWithIcons {
+	margin-top: 18px;
+}
+.HelpCenter {
+	color: grey;
+	font-size: 14px;
+}
+.mainRow {
+	margin-bottom: 35px;
+	width: 100%;
+	margin-left: 15px;
+}
+
+.bioRow .col {
+	overflow: hidden;
+}
+.move {
+	margin-left: 5px;
+}
+.dasboardContainer {
+	border: 1px solid lightgrey;
+	height: 440px;
+	border-radius: 10px;
+	margin-bottom: 25px;
+	background-color: #dce6f1;
+}
+.firstInsideContainer {
+	border: 1px solid lightgrey;
+	height: 115px;
+	border-radius: 10px;
+	background-color: white;
+}
+.yourDasboard {
+	margin-top: 10px;
+	font-weight: 500;
+	font-size: 24px;
+}
+.privateToYou {
+	font-size: 22px;
+	color: grey;
+	margin-bottom: 15px;
+	margin-top: 10px;
+}
+.colBorderLeft {
+	border-left: 1px lightgrey solid;
+	height: 115px;
+}
+.number {
+	font-size: 40px;
+	margin-left: 4px;
+	font-weight: 340;
+	color: #0b67c2;
+}
+.textInContainer {
+	margin-left: 4px;
+	font-size: 20px;
+}
+.secondInsideContainer {
+	border: 1px solid lightgrey;
+	margin-top: 25px;
+	height: 170px;
+	border-radius: 10px;
+	background-color: white;
+}
+.moveLeft {
+	margin-left: 35px;
+}
+.first.moveLeft {
+	font-size: 20px;
+	font-weight: 500;
+}
+.second.moveLeft {
+	color: grey;
+	font-weight: 400;
+}
+.secondColForContainer {
+	border-bottom: 1px grey solid;
+	height: 80px;
+	padding-bottom: 10px;
+}
+.dirtyMoney {
+	font-size: 40px;
+	margin-top: 15px;
+	margin-left: 5px;
+}
+.dirtyFlag {
+	font-size: 40px;
+	margin-top: 15px;
+	margin-left: 5px;
+	transform: rotate(90deg);
+}
+
+.outOfNames {
+	margin-left: 15px;
+	font-size: 25px;
+	font-weight: 500;
+}
+.outOfNames2 {
+	margin-left: 15px;
+	color: grey;
+	font-size: 23px;
+}
+@media only screen and (max-width: 2215px) {
+	.outOfNames2 {
+		font-size: 15px;
+	}
+	.outOfNames {
+		margin-top: 15px;
+		font-size: 16px;
+	}
+	.dirtyFlag {
+		font-size: 30px;
+	}
+	.dirtyMoney {
+		font-size: 30px;
+	}
+	.number {
+		font-size: 25px;
+	}
+	.textInContainer {
+		font-size: 15px;
+	}
+	.profilePic {
+		object-fit: cover !important;
+		width: 100px;
+		height: 100px;
+		margin-bottom: -20%;
+	}
+}
+
+/*
+	this is not needed anymore
+@media only screen and (max-width: 578px) {
+	.notJumbotronContainer {
+		height: 700px;
+	}
+}*/
+@media only screen and (max-width: 575px) {
+	.dasboardContainer {
+		height: 600px;
+	}
+	.firstInsideContainer {
+		height: 200px;
+	}
+	.secondInsideContainer {
+		height: 230px;
+	}
+	.colBorderLeft {
+		height: 60px;
+	}
+	.dirtyMoney {
+		font-size: 25px;
+		margin-bottom: -10px;
+	}
+	.dirtyFlag {
+		font-size: 25px;
+		margin-bottom: -10px;
+	}
+	.textInContainer {
+		margin-bottom: 0px;
+	}
+	.outOfNames.first.row {
+		margin-bottom: 10px2;
+	}
+	.secondColForContainer {
+		padding-bottom: 30px;
+		border: none;
+	}
+}
+@media only screen and (max-width: 312px) {
+	.outOfNames2 {
+		font-size: 12px;
+	}
+}
+a{
+	color:#004282;
+	font-weight:bold;
+}
+
+.dots{ display: inline-block;
+
+	white-space: nowrap;
+	overflow: hidden !important;
+	text-overflow: ellipsis;}
+
+p.dots:hover{
+	white-space: unset;
+	text-overflow: unset;
+}
